@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Princeton-IOT-V3
+  host: Princeton-IOT-V3
+  disk_quota: 1024M
+  services:
+  - Princeton-IOT-V3-cloudantNoSQLDB
